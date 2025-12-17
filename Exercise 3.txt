@@ -1,0 +1,320 @@
+1)
+
+// age=;
+// if ( age < 18 )
+// {
+// 	info "minor";	
+// }
+// else if ( age >=18 && age<= 59)
+// {
+// 	 info "adult" ;
+// }
+// else if ( age >=60 )
+// {
+// 	info "sinior citizen";
+// } 
+
+
+2)
+// a="";
+// if ((a=="") || (a.isEmpty()))
+// {
+// 	info "name missing";
+// }
+// else
+// {
+// 	info a;
+// }
+
+
+3)
+user_name="user1";
+password=12345;
+user_name2="user2";
+password2=09876;
+if ( user_name.matches(user_name2) && password == (password2) )
+{
+	info "login successfully" ;
+	
+}
+else 
+{
+	info "access denied" ;
+}
+
+
+4)
+a=300000;
+if (a>=90&& a<=100 )
+{
+	info " A grade ";
+}
+else if  ( (a>=80) && (a<=89))
+   {
+		info "B grade" ;
+	}
+else if ( (a>=70) && (a<=79) )
+    {
+		info "C grade" ;
+	}
+else if (a<=60) 
+{
+	info "fail";
+}
+else 
+{
+	info "higher than marks";
+}
+
+
+5)
+
+given input
+email="rithik.cbcsgmail.com";
+if ( email.contains("@"))
+{
+	info "valid mail";
+}
+else 
+{
+	info "invalid mail give valid mail id";
+}
+
+
+6)
+text="zoho";
+l=text.length();
+if ( l >=10 ) 
+{
+	info "long text" ;
+}
+else 
+{
+	info "short text";
+}
+
+7)
+colors={"red","blue","green"};
+if ( colors.contains("blue") )
+{
+	info "color found";
+}
+else 
+{
+	info "not found";
+}
+
+8)
+// given input
+customer_type="premium";
+amount=900;
+premium_discount=amount/100*10;
+regular_discount=amount/100*5;
+if (amount<=500) 
+{
+	info regular_discount;
+}
+else if ( amount >=900 )
+
+{
+	info premium_discount;
+}
+else 
+{
+	info "not discount";
+}
+
+
+9)
+
+//input kg 
+a=-11;
+if (a>=1&& a<=-10 )
+{
+	info " 5 USD ";
+	}
+ else if  ( (a>=1) && (a<=5))
+   {
+		info "10 usd" ;
+	}
+else if ( (a>=05) && (a<=20) )
+    {
+		info "20 USD" ;
+	}
+else if (a>20) 
+{
+	info "50 USD";
+}
+else 
+{
+	info "lower weight ";
+}
+				
+
+10)
+
+g="#Hrithik007";
+length=g.len();
+if ( length>=6 ) 
+{
+	if ( g.matches(".*[0-9].*"))
+	{
+		if(g.matches(".*[a-z].*"))
+		{
+		info "strong password" ;
+		}
+		else 
+    	{
+		info "must have alphabets" ;
+    	}
+	}
+	else 
+    {
+		info "must have numbers" ;
+    }
+}	
+else 
+{
+	info "too short";
+}
+
+
+11)
+
+Given_age=77;
+income=25000;
+if(Given_age>=21)
+{
+	if(income>=30000)
+	{
+		info "eligible";
+	}
+	else 
+    {
+		info "your loan apllication is not meet our criteria";
+    }
+}
+else 
+{
+	info"underage";
+}				
+
+
+12)
+steps=7506;
+if ( steps > 5000 && steps<7500 )
+{
+	info "active" ;
+	}
+	else if ( steps>=7500 && steps < 10000 )
+    {
+		info "very active";
+    }
+	else if ( steps >=10000 ) 
+    {
+		info "excellent" ;
+    }
+	else 
+    {
+		info" no steps";
+    }
+	
+
+13)
+
+
+phisics=0;
+chemistry=0;
+biology=0;
+mathemetics=0;
+computer=0;
+sum=(phisics+chemistry+biology+mathemetics+computer)/500*100;
+if ( sum >=90 )
+{
+	info "Grade A" ;
+}
+else if ( sum>= 80 ) 
+{
+	info "Grade B" ;
+}
+else if ( sum >= 70 ) 
+{
+	info "Grade C" ;
+}
+else if ( sum >=60 ) 
+{
+	info"Grade D";
+}
+else if ( sum >= 40 ) 
+{
+	info "Grade E" ;
+}
+else if ( sum < 40 )
+{
+	info"Grade F";
+}
+else 
+{
+	info "fail mark" ;
+}
+
+
+14)
+
+
+basic_salary=10000;
+if ( basic_salary <= 10000 ) 
+{
+	hra=basic_salary*20/100;
+	da=basic_salary*80/100;
+}
+else if ( basic_salary <= 20000 )
+{
+	hra=basic_salary*25/100;
+	da=basic_salary*90/100;
+}
+else if ( basic_salary > 20000 )
+
+{
+	hra=basic_salary*30/100;
+	da=basic_salary*95/100;
+}
+gross_salary=basic_salary+hra+da;
+info gross_salary;
+
+
+15)
+//units sum
+			
+unit=150;
+if ( unit <= 50 ) 
+{
+	total= unit *0.50;
+	info total ;
+}
+else if (  unit> 50 && unit <=150) 
+{
+	total=((50*0.50)+(unit-50)*0.75);
+	info total;
+}
+else if ( unit> 150&& unit <= 250 ) 
+{
+	total=((50*0.50)+(100*0.75)+(unit-150)*1.20);
+	info total;
+}
+else if ( unit> 250 ) 
+{
+	new=((50*0.50)+(100*0.75)+(unit-250)*1.50);
+	sur=(new *20/100);
+	total=new+sur;
+}
+else 
+{
+	info "no units" ;
+}
+
+
+		
+
+
+
