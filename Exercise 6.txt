@@ -1,0 +1,106 @@
+1)
+lis={};
+new={"red","blue","green","yellow"};
+lis.add(new);
+info lis ;
+
+2)
+lis={0,12,24,65,76,875,97};
+for each i in lis
+{
+	info i;
+}
+
+3)
+
+lis={87,77,88,98,23};
+e=88;
+for each i in lis
+{
+	
+	if ( i.contains(e) ) 
+    {
+		info "it is found";
+		
+    }
+	
+}
+---------------------------------------------------------------------------
+//model2
+
+lis={87,77,88,98,23};
+e=8;
+	
+	if ( lis.contains(e) ) 
+    {
+		info "it is found";
+		
+    }
+	else 
+    {
+		info"not";
+    }
+
+==================================================================================
+4)
+lis={"green","purple","rose"};
+info lis;
+r=lis.remove(1);
+info r;
+info lis;
+
+5)
+lis={"rithik","gopi","mani","hari"};
+for each index word in lis
+{
+	info word+ " = "+lis.get(word);
+}
+
+6)
+marks={90,65,23,90,34};
+for each mark in marks
+{
+	if ( mark %5==0 ) 
+    {
+		info mark+" its is divisible by 5";
+    }
+	else 
+    {
+		info mark+" not";
+    }
+}
+
+7)
+flowers={"rose","lotus","lily","jasmine","lily","sunflower".lower()};
+r=flowers.distinct();
+info r;
+
+8)
+number={123.5,789.90,876.65,8976.76};
+for each i in number
+{
+	info i.abs() ;
+}
+
+9)
+number_list={87,90,67,23,56,90,65,90};
+info number_list.sort();
+
+10)
+list={1,2,3,4,5,6,7,8,9};
+odd=0;
+even=0;
+for each l in list
+{
+	if ( l %2==1 ) 
+    {
+		odd=odd+1;
+    }
+	else 
+    {
+		even=even+1;
+    }
+}
+info odd ;
+info even ;
+
