@@ -39,4 +39,66 @@ for each l in list
 }
 
 6)
+number={1,8,9,45,78,34};
+odd=0;
+for each i in number
+{
+	if (isOdd(i)) 
+    {
+		odd = odd+i;
+		
+    }
+}
+info odd;
+
+7)
+number={1,8,9,45,78,34};
+odd=0;
+for each i in number
+{
+	if (isOdd(i)) 
+    {
+		odd = odd+1;
+		
+    }
+}
+info odd;
+
+8)
+sen={"positive thinking always leads to success","like nature","be positive"};
+note={"always","like","be"};
+for each s in sen
+{
+	for each i in note
+    {
+		if ( s.toLowerCase().contains(i) ) 
+		
+        {
+			info i;
+        }
+    }
+}
+
+9)
+fruits={"strawberry","cherry","apple","banana"};
+for each index word in fruits
+{
+	info word+"="+fruits.get(word);
+}
+
+
+10)
+numbers={44,89,99,100,12};
+lis={};
+for each n in numbers
+{
+	t=n.sqrt().floor();
+	lis.add(t);
+	
+}
+info "{"+lis+"}";
+
+
+
+
 
