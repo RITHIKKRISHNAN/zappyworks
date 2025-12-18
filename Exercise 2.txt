@@ -48,18 +48,18 @@ else
 
 -----------------------------------------------------------------
 6)
-n=5;
-if ( n.isEven() ) 
+n=99;
+if ( n%2==0 ) 
 {
 	info"it is even";
 }
-else if ( n.isOdd() ) 
+else if ( n%2==1) 
 {
 	info "it is odd";
 }
 else 
 {
-	info "it is not value";
+	info "not both";
 }	
 ----------------------------------------------------------------------
 
